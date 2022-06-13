@@ -11,6 +11,6 @@ while True:
         break
 media = sum(valores)/len(valores)
 for i, c in enumerate(valores):
-    desvios.append((valores[i] - media)**2)
+    desvios.append((valores[i] - media)**2) # Fórmula do desvio padrão
 desvtot = (sum(desvios)/(len(valores)-1))**0.5
 print(f'O desvio padrão é {desvtot}')
