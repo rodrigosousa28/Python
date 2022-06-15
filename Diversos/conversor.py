@@ -1,3 +1,6 @@
+# Algoritmo para converter números entre as principais bases numéricas
+
+
 def dectother(a, n):
     other = []
     other2 = []
